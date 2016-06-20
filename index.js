@@ -2,7 +2,7 @@ var path = './vendor/jsPDF/';
 jsPDF = require(path+'jspdf');
 
 //Load all the plugins
-var plugins = ['addhtml', 'addimage', 'annotations', 'autoprint', 'cell', 'context2d', 'from_html', 'javascript', 'outline', 'png_support', 'split_text_to_size', 'standard_fonts_metrics', 'svg', 'total_pages'];
+var plugins = ['addhtml', 'addimage', 'annotations', 'autoprint', 'cell', 'context2d', 'from_html', 'javascript', 'outline', 'png_support', 'split_text_to_size', 'standard_fonts_metrics', 'svg', 'total_pages', 'autotable'];
 plugins.map(function(plugin){
     require(path+'/plugins/'+plugin+'.js');
 });
