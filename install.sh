@@ -8,5 +8,5 @@ if [ ! -d vendor/jsPDF ]; then
     unzip jsPDF-AutoTable.zip
     mv jsPDF-AutoTable-* jsPDF-AutoTable
     rm jsPDF-AutoTable.zip
-    mv jsPDF-AutoTable/dist/jspdf.plugin.autotable.js vendor/jsPDF/plugins/autotable.js
+    mv jsPDF-AutoTable/dist/jspdf.plugin.autotable.src.js vendor/jsPDF/plugins/autotable.js
 fi
