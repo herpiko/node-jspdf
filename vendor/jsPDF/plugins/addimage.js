@@ -29,7 +29,7 @@
  */
 
 
-var atob require('atob');
+var atob = require('atob');
 
 ;(function(jsPDFAPI) {
 	'use strict'
