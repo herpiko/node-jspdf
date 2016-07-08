@@ -4,7 +4,6 @@
   "description": "Use jsPDF in your node apps.",
   "main": "index.js",
   "scripts": {
-    "install": "sh install.sh"
   },
   "repository": {
     "type": "git",
