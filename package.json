@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/calvinfroedge/node-jspdf/issues"
   },
-  "homepage": "https://github.com/calvinfroedge/node-jspdf"
+  "homepage": "https://github.com/calvinfroedge/node-jspdf",
+  "dependencies": {
+    "atob": "^2.0.3",
+    "btoa": "^1.1.2"
+  }
 }
